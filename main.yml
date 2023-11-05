@@ -1,0 +1,6 @@
+---
+- name: configure hosts 
+  hosts: all
+
+  vars_files:
+    - default.config.yml
